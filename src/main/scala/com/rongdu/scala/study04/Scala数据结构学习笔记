@@ -1,0 +1,10 @@
+scala常用的数据结构
+
+定长数组 Array
+可变数组 ArrayBuffer
+
+定长List List  //和Array的操作 方法类似
+可变List ListBuffer
+
+Array  List  Map  Set Tuple
+

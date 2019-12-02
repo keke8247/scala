@@ -1,0 +1,19 @@
+Java/Scala OO (Object Oriented)面向对象
+三大特性:
+    封装: 将属性,方法封装到类中
+        Person:
+            //属性
+            private int id,String name,Date birthday...... getter/setter
+            //方法
+            eat(),sleep()......
+    继承: 父类和子类之间的关系
+        User extends Person
+            //继承了父类的属性和方法
+            //可以扩展自己的方法,或者重写父类的方法
+            exam().....
+    多态: 父类的引用指向子类的对象    精髓所在   开发框架的基石
+        Person person = new Person();
+        User user = new User();
+        //对外只暴露父类接口即可.具体实现在子类中完成,通过反射等等...提供具体子类对象.
+        Person person = new User();
+
