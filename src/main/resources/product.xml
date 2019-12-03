@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <head>
+        <property name="test1" required="Y">test1_value</property>
+        <property name="test2" required="Y">test2_value</property>
+    </head>
+
+    <body>
+        <div id="div1">
+            <property name="test3" required="Y">test3</property>
+            <property name="test4" required="Y">test4</property>
+        </div>
+        <div id="div2">
+            <property name="test5" required="Y">test5</property>
+            <property name="test6" required="Y">test6</property>
+        </div>
+    </body>
+
+    <div>
+        <div id="div3">
+            <property name="test7" required="Y">test7</property>
+            <property name="test8" required="Y">
+                <value>
+                    test8_01
+                </value>
+                <value>
+                    test8_02
+                </value>
+            </property>
+            <li>
+                <property name="test9" required="Y">test9</property>
+                <property name="test10" required="Y">test10</property>
+            </li>
+        </div>
+    </div>
+</note>
